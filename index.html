@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./picture/foodlogo.png" alt="Logo">
+        </div>
+        <button class="menu-toggle">☰</button> <!-- Add this button for toggling -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <input type="text" placeholder="Search">
+            <a href="#" class="cart"><img src="./picture/cart.png" alt="Cart"></a>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <button class="delivery-type">Bike Delivery<img src="./picture/delivery.png" alt="bike"> </button>
+            <h1>THE FASTEST <br><span>DELIVERY</span> <br>IN <span>YOUR CITY</span> </h1>
+            <p>You can order us from anywhere, anytime. <br>Get extra bonus by ordering in weekend!<br>Your choice, We deliver. And in delivery we are best.</p>
+            <div class="buttons">
+                <button class="order-now">Order Now</button>
+                <button class="order-process"><img src="./picture/order.png" alt="Play"> Order Process</button>
+            </div>
+        </div>
+
+        <div class="food-items">
+
+            <div class="food-container">
+                <div class="food-item">
+                    <img src="./picture/burger.png" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Mushroom Sauce</p>
+                    <span>$5.15</span>
+                </div>
+                <div class="food-item">
+                    <img src="./picture/combofood.png" alt="Food Combo">
+                    <h3>Food Combo</h3>
+                    <p>Mushroom Sauce</p>
+                    <span>$9.15</span>
+                </div>
+            </div>
+
+            <div class="food-container">
+                <div class="food-item">
+                    <img src="./picture/pizza.png" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Mushroom Sauce</p>
+                    <span>$6.15</span>
+                </div>
+                <div class="food-item">
+                    <img src="./picture/cake.png" alt="Cake">
+                    <h3>Cake</h3>
+                    <p>Mushroom Sauce</p>
+                    <span>$5.15</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-item">
+            <img src="./picture/time.png" alt="Time">
+            <p>Today 10:00am - 10:00pm<br>Working time</p>
+        </div>
+        <div class="footer-item">
+            <img src="./picture/location.png" alt="Location">
+            <p>Mohammadpur, Dhaka<br>Our Location</p>
+        </div>
+        <div class="footer-item">
+            <img src="./picture/call.png" alt="Phone">
+            <p>+88 017 0000 0000<br>Phone Number</p>
+        </div>
+    </footer>
+
+    <main>
+        <section class="popular-items">
+            <h5>Products</h5>
+            <h2>Most Popular Items</h2>
+            <div class="product-list">
+                <!-- Initial Products -->
+                <div class="product-item">
+                    <img src="./picture/12/sandwitch.png" alt="Gyro Sandwich">
+                    <h3>Gyro Sandwich</h3>
+                    <div class="details">
+                        <span class="rating">⭐ 4.9</span>
+                        <span class="price">$15.00</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./picture/12/encilade.png" alt="Enchilade">
+                    <h3>Enchilade</h3>
+                    <div class="details">
+                        <span class="rating">⭐ 5.0</span>
+                        <span class="price">$25.50</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./picture/12/biriani.png" alt="Biriani">
+                    <h3>Biriani</h3>
+                    <div class="details">
+                        <span class="rating">⭐ 5.0</span>
+                        <span class="price">$20.50</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./picture/12/kabab.png" alt="Khabab">
+                    <h3>Khabab</h3>
+                    <div class="details">
+                        <span class="rating">⭐ 4.5</span>
+                        <span class="price">$21.00</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./picture/12/kacci.png" alt="Kacchi">
+                    <h3>Kacchi</h3>
+                    <div class="details">
+                        <span class="rating">⭐ 5.0</span>
+                        <span class="price">$35.50</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./picture/12/steak.png" alt="Steak">
+                    <h3>Steak</h3>
+                    <div class="details">
+                        <span class="rating">⭐ 5.0</span>
+                        <span class="price">$20.00</span>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <!-- Add more initial items -->
+
+                <!-- Hidden Products -->
+                <div class="additional-products">
+                    <!-- Additional Products to Show/Hide -->
+                    <div class="product-item">
+                        <img src="./picture/12/gbeen.png" alt="Green Beans">
+                        <h3>Green Beans</h3>
+                        <div class="details">
+                            <span class="rating">⭐ 4.9</span>
+                            <span class="price">$12.00</span>
+                        </div>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./picture/12/fuchka.png" alt="Fuchka">
+                        <h3>Fuchka</h3>
+                        <div class="details">
+                            <span class="rating">⭐ 5.0</span>
+                            <span class="price">$18.50</span>
+                        </div>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./picture/12/dates.png" alt="Dates">
+                        <h3>Dates</h3>
+                        <div class="details">
+                            <span class="rating">⭐ 5.0</span>
+                            <span class="price">$10.50</span>
+                        </div>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./picture/12/healthy.png" alt="Healthy">
+                        <h3>HomeMade</h3>
+                        <div class="details">
+                            <span class="rating">⭐ 5.0</span>
+                            <span class="price">$28.50</span>
+                        </div>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./picture/12/grill.png" alt="Grill">
+                        <h3>Grill</h3>
+                        <div class="details">
+                            <span class="rating">⭐ 4.0</span>
+                            <span class="price">$15.50</span>
+                        </div>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./picture/12/mejbani.png" alt="Mejabni">
+                        <h3>Mejbani</h3>
+                        <div class="details">
+                            <span class="rating">⭐ 5.0</span>
+                            <span class="price">$25.50</span>
+                        </div>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <!-- Add more additional items -->
+                </div>
+            </div>
+            <button class="toggle-products">See More Products</button>
+        </section>
+    </main>
+
+ <!-- Why Choose Us Section -->
+ <section class="why-choose">
+    <h5>Services</h5>
+    <h2>Why Choose Our Favorite Food</h2>
+    <div class="why-cards">
+        <div class="why-card">
+            <img src="./picture/qual.png" alt="Quality Food">
+            <h3>Qualityfull Food</h3>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+        </div>
+        <div class="why-card">
+            <img src="./picture/healthy.png" alt="Healthy Food">
+            <h3>Healthy Food</h3>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+        </div>
+        <div class="why-card">
+            <img src="./picture/fast.png" alt="Fast Delivery">
+            <h3>Fast Delivery</h3>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h2 class="section-title">Our Happy Client Says</h2>
+    <div class="abcd">
+    <div class="testimonial-container">
+        <button class="testimonial-arrow left-arrow">&#8592;</button>
+        <div class="testimonial-card">
+            <div class="client-image">
+                <img src="./picture/20210305_234135.jpg" alt="Client Image">
+            </div>
+            <div class="testimonial-content">
+                <h3>WIllians Jhone</h3>
+                <p>CEO & Co-Founder</p>
+                <p class="testimonial-text">
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nisl tincidunt adipiscing dictumst blandit hac. Lectus cras velit sed dignissim ac, aliquet. Metus egestas habitant feugiat neque ultrices nunc, dolor egestas mus.”
+                </p>
+            </div>
+        </div>
+        <button class="testimonial-arrow right-arrow">&#8594;</button>
+    </div>
+    <div class="foodi-image">
+        <img src="./picture/burger.png" alt="Food Image">
+    </div></div>
+</section>
+
+     <!-- Subscription Section -->
+     <section class="subscription">
+        <div class="container">
+            <div class="subscription-content">
+                <div class="subscription-image">
+                    <img src="./picture/burger.png" alt="Burger">
+                </div>
+                <div class="subscription-form">
+                    <h2>Subscribe To Our Newsletter</h2>
+                    <p>Stay updated with our latest offers and news. Sign up for our newsletter now!</p>
+                    <form id="subscription-form">
+                        <input type="email" id="email" placeholder="Type your email..." required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <booter>
+        <div class="booter-content">
+            <div class="booter-logo">
+                <img src="./picture/foodlogo.png" alt="Food Logo">
+                <p>Thanks for trusting us. We are comitted to your service any time. Don't hesitate to knock us and guide us in right deriction. Salam!</p>
+                <div class="social-icons">
+                    <a href="#"><img src="./picture/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="./picture/twitter-24.png" alt="Twitter"></a>
+                    <a href="#"><img src="./picture/linkedin-50.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="./picture/instagram-50.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="booter-details">
+                <div class="opening-hours">
+                    <h3>Opening Restaurant</h3>
+                    <p>Sat-Wet: 09:00am-10:00pm</p>
+                    <p>Thursday: 09:00am-11:00pm</p>
+                    <p>Friday: 09:00am-08:00pm</p>
+                </div>
+                <div class="user-links">
+                    <h3>User Link</h3>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Order Delivery</a></p>
+                    <p><a href="#">Payment & Tax</a></p>
+                    <p><a href="#">Terms of Services</a></p>
+                </div>
+                <div class="contact-us">
+                    <h3>Contact Us</h3>
+                    <p>Mohammadpur, Dhaka</p>
+                    <p>+88 017 0000 0000</p>
+                    <p>+88 018 0000 0000</p>
+                    <form id="contact-email">
+                        <input type="email" placeholder="Enter your email...">
+                        <button type="submit"><img src="./picture/order.png" alt="Send"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
